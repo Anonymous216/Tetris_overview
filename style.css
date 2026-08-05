@@ -1,3 +1,22 @@
 body {
   background-color: #04294e;
 }
+
+.Devs {
+  background-color: #04294e;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.devs {
+  width: 10%;
+  height: 10%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.text-center {
+  color: rgb(42, 157, 106);
+}
