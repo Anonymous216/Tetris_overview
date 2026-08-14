@@ -1,0 +1,313 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Tetris World is a classic puzzle game that challenges players to fit falling tetrominoes into complete lines. Enjoy the timeless gameplay and test your skills!"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="Gemini_Generated_Image_7kailj7kailj7kai.png"
+    />
+    <title>Home</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container-fluid">
+        <img
+          style="width: 120px; height: auto"
+          src="TetrisWorld.png"
+          alt="Tetris Logo"
+          class="d-inline-block align-text-top"
+        />
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="Tetris.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#game-intro">Game Intro</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#game-mechanics">Game Mechanics</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#game-rules">Game Rules</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="GameMode.html">Game Modes</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <video class="background-video" autoplay muted loop playsinline>
+      <source src="2video.mp4" type="video/mp4" />
+    </video>
+
+    <section class="hero">
+      <div class="hero-content">
+        <h1 class="tetris-title">
+          <span class="letter-t">T</span>
+          <span class="letter-e">E</span>
+          <span class="letter-t">T</span>
+          <span class="letter-r">R</span>
+          <span class="letter-i">I</span>
+          <span class="letter-s">S</span>
+        </h1>
+        <h2 class="world-title">W O R L D</h2>
+        <a href="" class="play-button">PLAY NOW</a>
+      </div>
+    </section>
+
+    <section class="about-game" id="game-intro">
+      <div class="left-side">
+        <img src="3d.png" alt="" />
+      </div>
+
+      <div class="right-side">
+        <h1>About Game:</h1>
+
+        <h2>What Is <span style="color: rgb(226, 226, 13)">TETRIS?</span></h2>
+
+        <h5>
+          It's the addictive puzzle game that started it all! By embracing our
+          universal desire to create order out of chaos, the Tetris® game
+          provides intellectual sport that combines continuous fun with mental
+          stimulation. As one of the most recognizable and influential video
+          game brands in the world, it's no wonder why there are hundreds of
+          millions of Tetris products being played, worn, and enjoyed by fans in
+          their everyday lives. For almost forty years, the game and brand have
+          truly transcended the barriers of culture and language, resulting in a
+          fun and exciting playing experience for everyone, everywhere!
+        </h5>
+      </div>
+    </section>
+    <section class="about-game" id="game-mechanics">
+      <div class="left-side">
+        <img src="mechanics.jpeg" alt="" />
+      </div>
+      <div class="right-side">
+        <h1><span style="color: rgb(226, 226, 13)">Game Mechanics</span></h1>
+        <br />
+        <h5>
+          Tetris is a fast paced, grid based puzzle game played on a 10×20
+          matrix where seven distinct geometric blocks called Tetrominoes fall
+          continuously from top to bottom, requiring players to rotate, shift,
+          and drop them to fill complete horizontal rows. Completing a row
+          clears those blocks, drops the stack above, and awards points that
+          increase with multi-line clears, T-Spins, and higher difficulty levels
+          until the stack reaches the top border and triggers a Game Over.
+        </h5>
+      </div>
+    </section>
+    <section class="GameRules py-5" id="game-rules">
+      <h1>Game Rules:</h1>
+
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="card h-100">
+              <div class="card-body">
+                <h5>The Tetriminos</h5>
+                <p>
+                  7 distinct shapes (I, O, T, L, J, S, Z) each made of 4 blocks.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card h-100">
+              <div class="card-body">
+                <h5>Controls</h5>
+                <p>
+                  Move pieces left or right, rotate them to fit, use Soft Drop
+                  to speed up falling, or Hard Drop to instantly place them.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card h-100">
+              <div class="card-body">
+                <h5>Clearing Lines</h5>
+                <p>
+                  Filling a full row clears it from the board. Clearing 4 lines
+                  at once is called a Tetris.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card h-100">
+              <div class="card-body">
+                <h5>Levels & Speed</h5>
+                <p>
+                  The game speeds up as you clear more lines, forcing faster
+                  decisions.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card h-100">
+              <div class="card-body">
+                <h5>Game Over</h5>
+                <p>
+                  The game ends when blocks stack up to the top of the grid and
+                  no space remains for new pieces.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card h-100">
+              <div class="card-body">
+                <h5>Score</h5>
+                <p>
+                  Clear more lines to earn a higher score and get more points.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="GameModes py-5" id="game-modes">
+        <h1>Game Modes:</h1>
+        <h2 class="">Standard Guidelines Modes:</h2>
+        <div class="container">
+          <div class="row g-3">
+            <div class="col-md-3">
+              <div class="card h-100">
+                <div class="card-body">
+                  <h5>Marathon Mode</h5>
+                  <p>
+                    Marathon: Stack and clear lines as the game speed
+                    progressively increases, aiming to survive as long as
+                    possible.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="card h-100">
+                <div class="card-body">
+                  <h5>Sprint (40 Lines):</h5>
+                  <p>
+                    Sprint (40-Line): Race against the clock to clear a total of
+                    40 lines as fast as possible.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="card h-100">
+                <div class="card-body">
+                  <h5>Ultra Mode</h5>
+                  <p>
+                    A score-attack mode with a strict time limit (usually 3
+                    minutes) to get the highest score.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="card h-100">
+                <div class="card-body">
+                  <h5>Master/Speed Mode:</h5>
+                  <p>
+                    Extreme gravity where pieces drop instantly, designed for
+                    expert players.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="GameModes py-5" id="game-modes">
+        <h2 class="">Multiplayer & Battle Royale Modes:</h2>
+        <div class="container">
+          <div class="row g-3">
+            <div class="col-md-4">
+              <div class="card h-100">
+                <div class="card-body">
+                  <h5>Versus / Battle:</h5>
+                  <p>
+                    Compete against opponents by clearing lines to send garbage
+                    rows to their boards.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card h-100">
+                <div class="card-body">
+                  <h5>Battle Royale (e.g., Tetris 99):</h5>
+                  <p>
+                    Mass multiplayer survival where you fight 98 other players
+                    simultaneously and target specific opponents.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card h-100">
+                <div class="card-body">
+                  <h5>Score Attack:</h5>
+                  <p>
+                    A head to head match focusing strictly on the highest point
+                    score rather than offensive garbage routing.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
